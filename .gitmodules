@@ -1,0 +1,6 @@
+[submodule "FleetInventoryManagementAPI"]
+	path = FleetInventoryManagementAPI
+	url = https://github.com/jasonwang101/FleetInventoryManagementAPI.git
+[submodule "FleetInventoryManagementWeb"]
+	path = FleetInventoryManagementWeb
+	url = https://github.com/jasonwang101/FleetInventoryManagementWeb.git
