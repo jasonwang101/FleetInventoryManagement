@@ -1,0 +1,2 @@
+cd FleetInventoryManagementWeb
+npm run build
