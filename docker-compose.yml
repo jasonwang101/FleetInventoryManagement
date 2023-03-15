@@ -1,0 +1,15 @@
+version: "3.5"
+
+services:
+  web:
+    depends_on:
+      - backend
+    image: fleetinventorymanagement/webapp
+    build: ./FleetInventoryManagementWeb
+    ports:
+      - "80"
+  backend:
+    image: fleetinventorymanagement/api
+    build: ./FleetInventoryManagementAPI
+    ports:
+      - "36000:80"
